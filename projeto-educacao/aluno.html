@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aluno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aluno.css">
+    <title>Página do Aluno</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Área do Aluno</h1>
+    </header>
+
+    <section class="disciplinas">
+        <div class="disciplina">
+            <h2>Front-End</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%; background-color: #2ecc71;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Front-End...</h3>
+            <label for="frontEndAula1">Aula 1: HTML e CSS</label><br>
+            <label for="frontEndAula2">Aula 2: JavaScript Básico</label><br>
+            <label for="frontEndAula3">Aula 3: Frameworks Front-End</label><br>
+            <label for="frontEndAula4">Aula 4: Responsividade</label><br>
+            <label for="frontEndAula5">Aula 5: Performance Web</label><br>
+            <h2>DevOps</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 85%; background-color: #2ecc71;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de DevOps...</h3>
+            <label for="devOpsAula1">Aula 1: Docker</label><br>
+            <label for="devOpsAula2">Aula 2: Shell Script</label><br>
+            <label for="devOpsAula3">Aula 3: Kubernetes</label><br>
+            <label for="devOpsAula4">Aula 4: Linux</label><br>
+            <label for="devOpsAula5">Aula 5: Máquinas Virtuais</label><br>
+            <label for="devOpsAula6">Aula 6: Nginx</label><br>
+            <h2>Banco de Dados</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 25%; background-color: #e74c3c;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Banco de Dados...</h3>
+            <label for="bdAula1">Aula 1: Introdução ao Banco de Dados</label><br>
+            <label for="bdAula2">Aula 2: Modelagem de Dados</label><br>
+            <label for="bdAula3">Aula 3: Linguagem SQL</label><br>
+            <label for="bdAula4">Aula 4: Normalização</label><br>
+            <label for="bdAula5">Aula 5: Banco de Dados NoSQL</label><br>
+            <h2>Sistemas Operacionais</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 20%; background-color: #e74c3c;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Sistemas Operacionais...</h3>
+            <label for="soAula1">Aula 1: Introdução aos Sistemas Operacionais</label><br>
+            <label for="soAula2">Aula 2: Processos e Threads</label><br>
+            <label for="soAula3">Aula 3: Memória</label><br>
+            <label for="soAula4">Aula 4: Sistemas de Arquivos</label><br>
+            <label for="soAula5">Aula 5: Virtualização</label><br>
+        </div>
+        <div class="disciplina">
+            <h2>Back-End</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 64%; background-color: #2ecc71;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Back-End...</h3>
+            <label for="backEndAula1">Aula 1: Node.js</label><br>
+            <label for="backEndAula2">Aula 2: Express.js</label><br>
+            <label for="backEndAula3">Aula 3: MongoDB</label><br>
+            <label for="backEndAula4">Aula 4: APIs RESTful</label><br>
+            <label for="backEndAula5">Aula 5: Autenticação e Autorização</label><br>
+            <h2>Redes de Computadores</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 20%; background-color: #e74c3c;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Redes de Computadores...</h3>
+            <label for="redesAula1">Aula 1: Introdução às Redes</label><br>
+            <label for="redesAula2">Aula 2: Protocolos de Comunicação</label><br>
+            <label for="redesAula3">Aula 3: Topologias de Rede</label><br>
+            <label for="redesAula4">Aula 4: Roteamento e Comutação</label><br>
+            <label for="redesAula5">Aula 5: Segurança em Redes</label><br>
+            <h2>Inteligência Artificial</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 10%; background-color: #e74c3c;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Inteligência Artificial...</h3>
+            <label for="iaAula1">Aula 1: Introdução à Inteligência Artificial</label><br>
+            <label for="iaAula2">Aula 2: Aprendizado de Máquina</label><br>
+            <label for="iaAula3">Aula 3: Redes Neurais</label><br>
+            <label for="iaAula4">Aula 4: Processamento de Linguagem Natural</label><br>
+            <label for="iaAula5">Aula 5: Aplicações Práticas</label><br>
+            <h2>Engenharia de Software</h2>
+            <div class="progress-bar">
+                <div class="progress" style="width: 15%; background-color: #e74c3c;"></div>
+            </div>
+            <h3>Detalhes sobre aulas de Engenharia de Software...</h3>
+            <label for="engSoftAula1">Módulo 1: Modelagem de Sistemas</label><br>
+            <label for="engSoftAula2">Módulo 2: Metodologias Ágeis</label><br>
+            <label for="engSoftAula3">Módulo 3: Engenharia Reversa</label><br>
+            <label for="engSoftAula4">Módulo 4: Testes de Software</label><br>
+            <label for="engSoftAula5">Módulo 5: DevOps na Engenharia de Software</label><br>
+        </div>
+
+        </div>
+
+
+
+        <!-- Repita o mesmo padrão para outras disciplinas -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Personalize</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
