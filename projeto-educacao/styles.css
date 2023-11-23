@@ -1,23 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Estilos comuns para o header */
 header {
     background-color: #3498db;
     color: #fff;
     text-align: center;
-    padding: 50px;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.app{
-    min-height: 100vh;
-    flex-direction: column;
-}
-header h1 {
-    font-size: 36px;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos comuns para seções de recursos */
 .features {
-    height: 52vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -26,7 +38,7 @@ header h1 {
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
-    text-align: center;
+    text-align: justify;
     background-color: #f5f5f5;
 }
 
@@ -34,10 +46,12 @@ header h1 {
     font-size: 24px;
 }
 
+/* Estilos comuns para a seção de chamada para ação (CTA) */
 .cta {
     background-color: #f39c12;
     text-align: center;
     padding: 40px;
+    margin-bottom: 0; /* Adicione esta linha para remover a margem inferior */
 }
 
 .cta h2 {
@@ -54,6 +68,7 @@ header h1 {
     margin-top: 20px;
     font-weight: bold;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
@@ -65,48 +80,106 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-}
-body {
-    font-family: Arial, sans-serif; 
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-
+    margin-top: 0; /* Remova ou ajuste conforme necessário */
+    margin-bottom: 0; /* Remova ou ajuste conforme necessário */
 }
 
-header {
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
+/* Estilos específicos para a seção "Quem Somos" */
 .about {
     padding: 20px;
     text-align: center;
-    font-family: Comic-Sans;
-    font-size: 80;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #f8f8f8; /* Cor de fundo alternativa */
 }
 
 .about h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-family: Roboto-Mono;
+    font-size: 36px;
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #3498db;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto-Mono', monospace; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.about p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #555; 
+    text-align: justify;
+    margin-bottom: 18px; 
+}
+
+.about p:hover {
+    color: #3498db; 
+}
+
+.image-gallery {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adiciona margem superior ao rodapé */
 footer {
-    background-color: #34495e;
-    color: #fff;
+    margin-top: 20px;
+}
+
+/* login.css */
+
+.login {
     text-align: center;
-    padding: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.login select {
+    margin-bottom: 10px;
+}
+
+.login h2 {
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 6px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
