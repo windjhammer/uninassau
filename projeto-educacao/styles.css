@@ -5,7 +5,6 @@ body {
     height: 100vh;
 }
 
-/* Estilos comuns para o header */
 header {
     background-color: #3498db;
     color: #fff;
@@ -25,7 +24,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Estilos comuns para seções de recursos */
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -46,12 +44,11 @@ nav a:hover {
     font-size: 24px;
 }
 
-/* Estilos comuns para a seção de chamada para ação (CTA) */
 .cta {
     background-color: #f39c12;
     text-align: center;
     padding: 40px;
-    margin-bottom: 0; /* Adicione esta linha para remover a margem inferior */
+    margin-bottom: 0;
 }
 
 .cta h2 {
@@ -80,17 +77,15 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    margin-top: 0; /* Remova ou ajuste conforme necessário */
-    margin-bottom: 0; /* Remova ou ajuste conforme necessário */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-
-/* Estilos específicos para a seção "Quem Somos" */
 .about {
     padding: 20px;
     text-align: center;
     font-family: 'Comic Sans MS', sans-serif;
-    background-color: #f8f8f8; /* Cor de fundo alternativa */
+    background-color: #f8f8f8; 
 }
 
 .about h1 {
@@ -133,19 +128,16 @@ footer {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Adiciona margem superior ao rodapé */
 footer {
     margin-top: 20px;
 }
-
-/* login.css */
 
 .login {
     text-align: center;
     margin: 20px;
     margin-bottom: 10px;
 }
+
 .login select {
     margin-bottom: 10px;
 }
@@ -183,3 +175,52 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.disciplina {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.alunos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aluno-progresso {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.barra-progresso {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progresso {
+    height: 100%;
+    width: 80%;
+    background-color: #3498db;
+}
+
